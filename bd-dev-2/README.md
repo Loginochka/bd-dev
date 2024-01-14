@@ -8,7 +8,7 @@
 
 ### Ответ 1
 
-[Ссылка на compose sql_compose.yml]()
+[Ссылка на compose sql_compose.yml](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/media/sql_compose.yml)
 
 ### Задача 2
 
@@ -42,7 +42,7 @@
 
 ### Ответ 2
 
-[Ссылка на Ответ 2]()
+[Ссылка на Ответ 2](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/media/job_2.png)
 
 ### Задача 3
 
@@ -77,7 +77,7 @@
 
 ### Ответ 3
 
-[Ссылка на Ответ 3]()
+[Ссылка на Ответ 3](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/media/job_3.png)
 
 ### Задача 4
 
@@ -99,7 +99,7 @@
 
 ### Ответ 4
 
-[Ссылка на Ответ 4]()
+[Ссылка на Ответ 4](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/media/job_4.png)
 
 ### Задача 5
 
@@ -133,4 +133,4 @@ docker-compose.exe -f '.\sql_compose bkp.yml' up -d
 docker exec -it postgresql_bkp /bin/bash
 psql -U test-admin-user -d test_db < /backups/test_db_backup.sql
 
-[Ссылка на sql_compose bkp.yml]()
+[Ссылка на sql_compose bkp.yml](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/media/sql_compose%20bkp.yml)
