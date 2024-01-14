@@ -128,9 +128,14 @@ Filter: (заказ IS NOT NULL): Это фильтр, который приме
 ### Ответ 6
 
 pg_dump -U test-admin-user -d test_db > /backups/test_db_backup.sql
+
 docker stop postgresql
+
 docker-compose.exe -f '.\sql_compose bkp.yml' up -d 
+
 docker exec -it postgresql_bkp /bin/bash
+
 psql -U test-admin-user -d test_db < /backups/test_db_backup.sql
+
 
 [Ссылка на sql_compose bkp.yml](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/media/sql_compose%20bkp.yml)
