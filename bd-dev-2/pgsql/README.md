@@ -46,7 +46,7 @@
 
 ### Ответ 2
 
-[Ответ 2]()
+[Ответ 2](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/pgsql/media/Screenshot_1.png)
 
 ### Задача 3
 
@@ -58,8 +58,7 @@
 
 ### Ответ 3
 
-``SQL
-
+```SQL
 BEGIN TRANSACTION;
 CREATE TABLE orders_1 AS
 SELECT * FROM orders WHERE price > 499;
@@ -69,14 +68,12 @@ SELECT COUNT(*) FROM orders_1;
 SELECT COUNT(*) FROM orders_2;
 DROP TABLE orders;
 COMMIT;
-
-``SQL
+```
 
 Да, можно было использовать шардирования сразу при создании таблицы.
 Это позволяет базе данных автоматически управлять распределением данных между различными шардами таблицы на основе определенного ключа или условия. Например:
 
-``SQL
-
+```SQL
 CREATE TABLE orders (
     order_id INT PRIMARY KEY,
     customer_id INT,
@@ -86,8 +83,7 @@ CREATE TABLE orders (
     PARTITION p_high VALUES LESS THAN (500),
     PARTITION p_low VALUES LESS THAN MAXVALUE
 );
-
-``SQL
+```
 
 ### Задача 4
 
@@ -99,14 +95,12 @@ CREATE TABLE orders (
 
 После создания дампа Бд, вручную дописал следующее:
 
-``SQL
-
+```SQL
 CREATE TABLE test_table (
     id serial PRIMARY KEY,
     title varchar(255) UNIQUE,
     description text
 );
-
-``SQL
+```
 
 UNIQUE добавил для уникальности столбца title
