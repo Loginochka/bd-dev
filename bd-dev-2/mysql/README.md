@@ -19,7 +19,7 @@
 
 ### Ответ 1
 
-[Ответ 1]()
+[Ответ 1](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/mysql/media/Screenshot_1.png)
 
 ### Задача 2
 
@@ -39,7 +39,7 @@
 
 ### Ответ 2
 
-[Ответ 2]()
+[Ответ 2](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/mysql/media/Screenshot_2.png)
 
 ### Задача 3
 
@@ -54,7 +54,7 @@
 
 ### Ответ 3
 
-[Ответ 3]()
+[Ответ 3](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/mysql/media/Screenshot_3.png)
 
 ### Задача 4
 
@@ -70,6 +70,6 @@
 
 Приведите в ответе изменённый файл my.cnf.
 
-### Ответ 3
+### Ответ 4
 
-[Ответ 4]()
+[Ответ 4](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/mysql/media/Screenshot_4.png)
