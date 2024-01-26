@@ -21,7 +21,7 @@
 
 ### Ответ 1
 
-```YAML
+```Dockerfile
 FROM centos:7
 
 RUN yum -y update && \
@@ -54,7 +54,7 @@ EXPOSE 9200
 
 [Cсылка на образ в репозитории dockerhub](https://hub.docker.com/repository/docker/loginachka/elasticsearch/general)
 
-[Ответ Elasticsearch на запрос пути / в json-виде]()
+[Ответ Elasticsearch на запрос пути / в json-виде](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/elk/media/Screenshot_1.png)
 
 ### Задача 2
 
@@ -77,15 +77,14 @@ EXPOSE 9200
 
 ### Ответ 2
 
-[Cписок индексов и их статусов]()
-
-[Cостояние кластера Elasticsearch]()
+[Cписок индексов и их статусов + Cостояние кластера Elasticsearch](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/elk/media/Screenshot_2.png)
 
 Статус "yellow" в Elasticsearch означает, что все шарды индекса доступны для поиска, но не все реплики завершены. Это может быть вызвано неудачным созданием реплик из-за недоступности узлов, где они должны были бы разместиться.
 
 ### Задача 3
 
 В этом задании вы научитесь:
+
 * создавать бэкапы данных,
 * восстанавливать индексы из бэкапов.
 
@@ -109,12 +108,12 @@ EXPOSE 9200
 
 ### Ответ 3
 
-[Запрос API и результат вызова API для создания репозитория]()
+[Запрос API и результат вызова API для создания репозитория](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/elk/media/Screenshot_3.png)
 
-[Список индексов]()
+[Список индексов](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/elk/media/Screenshot_7.png)
 
-[Список файлов в директории со snapshot]()
+[Список файлов в директории со snapshot](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/elk/media/Screenshot_4.png)
 
-[Список индексов после удаления]()
+[Список индексов после удаления](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/elk/media/Screenshot_5.png)
 
-[Запрос к API восстановления и итоговый список индексов]()
+[Запрос к API восстановления и итоговый список индексов](https://github.com/Loginochka/bd-dev/blob/main/bd-dev-2/elk/media/Screenshot_6.png)
